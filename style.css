@@ -1,0 +1,51 @@
+.paragraf{
+  text-align: justify;
+}
+
+.background{
+  background-image: url('img/background1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-front{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+.section-h2{
+  width: 20%;
+  background-color: rgba(137, 207, 243,.5);
+  color: #00A9FF;
+}
+
+footer{
+  line-height: 37.5px;
+  background-color: black;
+  height: 75px;
+}
+
+.icons{
+  font-size: 50px;
+}
+
+.wa:hover .wai{
+  color: green;
+}
+
+.github:hover .githubi {
+  color: black;
+}
+
+.text{
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-h2 {
+      width: 45%;
+    }
+}
