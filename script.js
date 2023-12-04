@@ -8,4 +8,5 @@ document.getElementById("background").style.height = `${
 // style for sections
 let height = document.getElementById("portfolio").clientHeight;
 document.getElementById("about").style.minHeightt = `${height}px`;
-document.getElementById("contact").style.minHeight = `${height}px`;
+document.getElementById("contact").style.Height = `${height / 1.2}px`;
+document.getElementById("contact1").style.Height = `${height / 1.3}px`;

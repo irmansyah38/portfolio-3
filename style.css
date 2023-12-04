@@ -1,5 +1,19 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .paragraf{
   text-align: justify;
+}
+
+.footer{
+  color: #00A9FF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer:hover{
+  color: rgb(40, 40, 40);
 }
 
 .background{
@@ -23,9 +37,12 @@
 }
 
 footer{
-  line-height: 37.5px;
-  background-color: black;
-  height: 75px;
+  background-color: rgba(137, 207, 243, .5);
+  height: 100px;
+}
+
+.link{
+  font-size: 10px;
 }
 
 .icons{
@@ -40,12 +57,19 @@ footer{
   color: black;
 }
 
+.email:hover .emaili {
+  color: red;
+}
+
 .text{
   text-align: justify;
 }
+
 
 @media only screen and (max-width: 600px) {
   .section-h2 {
       width: 45%;
     }
 }
+
+
